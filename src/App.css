@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header-text {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+#header {
+  background: rgb(217, 217, 217);
+}
+#card {
+  padding: 40px 0;
+}
+.card {
+  border-radius: 50px;
+
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: rgba(255, 255, 255, 0.2);
+  width: 1150px;
+  overflow-x: scroll;
+
+  height: 450px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+body {
+  border-radius: 10px;
+
+  background: rgb(35, 69, 69);
+}
+
+h3 {
+  text-decoration: none;
+}
+.card-text {
+  text-align: center;
+  padding: 10px 0;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 35px;
+  font-weight: 500;
+  margin-top: 40px;
+  line-height: 55px;
+  letter-spacing: 0%;
+  margin-left: 450px;
+  text-align: left;
+}
+.card-text h3 {
+}
+.admin {
+  border-radius: 50px;
+
+  box-shadow: inset 0px 4px 27px 0px rgba(0, 0, 0, 0.5);
+  background: rgb(12, 120, 120);
+  /* Rectangle 6 */
+  position: absolute;
+  width: 987px;
+  height: 440px;
+  left: 140px;
+  right: 226px;
+  top: 130px;
+  bottom: 325px;
+}
+.card-input input {
+  padding: 10px 22px 10px 22px;
+  width: 600px;
+  height: 30px;
+  border-radius: 10px;
+  box-shadow: inset 2px 5px 4px 0px rgba(0, 0, 0, 0.25);
+  background: rgb(255, 255, 255);
+}
+.card-input {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-direction: column;
+}
+.card-input button {
+  border-radius: 10px;
+
+  background: rgb(22, 75, 75);
+  border: none;
+  padding: 10px 120px;
+}
+.section {
+  /* Rectangle 4 */
+  width: 200px;
+  height: 248px;
+  left: 437px;
+  right: -437px;
+  top: 246px;
+  bottom: -246px;
+  border-radius: 10px;
+
+  background: rgb(35, 69, 69);
+}
+.card-box {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+.img {
+  /* image 1 */
+  width: 200px;
+  height: 167px;
+  left: 437px;
+  right: -437px;
+  top: 646px;
+  margin-top: -15px;
+  bottom: 35px;
+  border-radius: 10px;
+
+  background: url(image);
+}
+.nam {
+  padding: 4px;
+  margin-left: 50px;
+
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.last {
+  margin-left: 50px;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.del {
+  margin-top: 10px;
+  margin-left: 80px;
+}
+h3 {
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
